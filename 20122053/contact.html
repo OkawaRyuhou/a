@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+    <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+    <div class="bg"></div>
+	<div class="bg bg2"></div>
+	<div class="bg bg3"></div>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="request.html">ご依頼実績</a></li>
+            <li><a href="buy.html">楽器販売</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+    <fieldset>
+        <legend>個人情報</legend>
+    <table>
+        <tr>
+            <td><label for="">ご依頼の楽器</label></td>
+            <td>
+                <div class="form-item">
+                <input type="text" placeholder="ギター,ベース等">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">氏名</label></td>
+            <td colspan="3"><input type="text" placeholder="山田太郎" size="35">
+                <div class="form-item">
+                    <i class="fa-light fa-hashtag"></i></i>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">住所</label></td>
+            <td colspan="3"><input type="text" placeholder="新潟県新潟市中央区米山66-6" size="35">
+                <div class="form-item">
+                    <i class="fa-light fa-hashtag"></i></i>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">電子メール</label></td>
+            <td colspan="3"><input type="text" placeholder="exmple@xxx.com" size="35">
+                <div class="form-item">
+                    <i class="fa-solid fa-envelope"></i></i>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">電話番号</label></td>
+            <td colspan="3"><input type="text" placeholder="(025)-111-1234" size="35">
+                <div class="form-item">
+                    <i class="fa-solid fa-phone"></i></i></i></td>
+        </tr>
+        <tr>
+            <td><label for="">ご依頼内容</label></td>
+            <td colspan="3"><textarea cols="32" rows="3"></textarea></td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <p>楽器の状態や症状をお伝えできる場合はPDFを送信してください</p>
+        <input type="file">
+    </fieldset>
+    <input type="button" value="送信">
+</body>
+</html>
